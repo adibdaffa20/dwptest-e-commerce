@@ -41,10 +41,10 @@ const tagConfig = {
 
 const providers = [
   { label: "Telkomsel", value: "Telkomsel", logo: "/assets/telkomsel.png", accent: "#ef1414" },
-  { label: "by.U", value: "by.U", logo: "/assets/byU.png", accent: "#1a1a1a" },
-  { label: "Indosat", value: "Indosat", logo: "/assets/indosat.png", accent: "#e8a000" },
+  { label: "by.U", value: "by.U", logo: "/assets/byU.png", accent: "#0bcaff" },
+  { label: "Indosat", value: "Indosat", logo: "/assets/indosat.png", accent: "#ffbf35" },
   { label: "Smartfren", value: "Smartfren", logo: "/assets/smartfren.png", accent: "#c2185b" },
-  { label: "Tri", value: "Tri", logo: "/assets/tri.jpg", accent: "#0080d4" },
+  { label: "Tri", value: "Tri", logo: "/assets/tri.jpg", accent: "#e91e8c" },
   { label: "XL", value: "XL", logo: "/assets/xl.png", accent: "#0050a0" },
   { label: "Axis", value: "Axis", logo: "/assets/axis.png", accent: "#8b5cf6" },
 ];
@@ -239,7 +239,7 @@ function PackageCard({ p }) {
 
 function LoadingSkeleton() {
   return (
-    <Box sx={{ display: "grid", gap: 2, gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" } }}>
+    <Box sx={{ display: "grid", gap: 2.5, width: "100%", gridTemplateColumns: { xs: "1fr", md: "1fr 1fr 1fr" } }}>
       {[1, 2, 3, 4].map((i) => (
         <Card key={i} sx={{ borderRadius: 3, border: "1px solid #fce4ec", boxShadow: "none" }}>
           <CardContent sx={{ p: 2.5, "&:last-child": { pb: 2.5 } }}>
@@ -385,22 +385,6 @@ export default function PriceListPage() {
                 </Typography>
               </Box>
             </Stack>
-
-            <Button
-              onClick={() => refetch()}
-              startIcon={<RefreshIcon />}
-              variant="outlined"
-              sx={{
-                borderRadius: 3,
-                borderColor: "#fce4ec",
-                color: "#e91e8c",
-                "&:hover": { borderColor: "#f48fb1", bgcolor: "#fff0f7" },
-                textTransform: "none",
-                fontWeight: 700,
-              }}
-            >
-              Refresh
-            </Button>
           </Stack>
 
           {/* error state */}
