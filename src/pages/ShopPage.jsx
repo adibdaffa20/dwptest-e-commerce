@@ -38,7 +38,7 @@ const providers = [
   { label: "by.U", value: "by.U", logo: "/assets/byU.png", accent: "#0bcaff" },
   { label: "Indosat", value: "Indosat", logo: "/assets/indosat.png", accent: "#ffbf35" },
   { label: "Smartfren", value: "Smartfren", logo: "/assets/smartfren.png", accent: "#c2185b" },
-  { label: "Tri", value: "Tri", logo: "/assets/tri.jpg", accent: "#e91e8c" },
+  { label: "Tri", value: "Tri", logo: "/assets/tri.png", accent: "#e91e8c" },
   { label: "XL", value: "XL", logo: "/assets/xl.png", accent: "#0050a0" },
   { label: "Axis", value: "Axis", logo: "/assets/axis.png", accent: "#8b5cf6" },
 ];
