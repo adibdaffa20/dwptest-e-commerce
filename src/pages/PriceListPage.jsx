@@ -555,20 +555,6 @@ export default function PriceListPage() {
                     · {finalFiltered.length} paket tersedia
                   </Box>
                 </Typography>
-
-                {/* indikator sumber data */}
-                <Chip
-                  size="small"
-                  label={apiPkgs.length > 0 ? "Sumber: API" : "Sumber: Mock"}
-                  sx={{
-                    ml: "auto",
-                    borderRadius: 99,
-                    bgcolor: apiPkgs.length > 0 ? "rgba(16,185,129,0.10)" : "rgba(233,30,140,0.08)",
-                    color: apiPkgs.length > 0 ? "#10b981" : "#e91e8c",
-                    fontWeight: 800,
-                    border: "1px solid #fce4ec",
-                  }}
-                />
               </Stack>
 
               <Box

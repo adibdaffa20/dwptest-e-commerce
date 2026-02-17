@@ -42,34 +42,348 @@
       "quota": "2GB",
       "validityDays": 1,
       "price": 9000,
-      "tag": "Cepat",
+      "tag": "Hemat",
+      "provider": "Telkomsel",
       "isActive": true
     },
     {
       "id": "2",
-      "name": "Mingguan 10GB",
-      "quota": "10GB",
-      "validityDays": 7,
-      "price": 35000,
-      "tag": "Hemat",
+      "name": "SIMPATI 15GB",
+      "quota": "15GB",
+      "validityDays": 30,
+      "price": 60000,
+      "tag": "Populer",
+      "provider": "Telkomsel",
       "isActive": true
     },
     {
       "id": "3",
-      "name": "Bulanan 25GB",
-      "quota": "25GB",
+      "name": "SIMPATI 30GB",
+      "quota": "30GB",
       "validityDays": 30,
-      "price": 85000,
-      "tag": "Best Seller",
+      "price": 100000,
+      "tag": "Cepat",
+      "provider": "Telkomsel",
       "isActive": true
     },
     {
       "id": "4",
-      "name": "Bulanan 50GB",
+      "name": "SIMPATI 50GB",
+      "quota": "50GB",
+      "validityDays": 30,
+      "price": 150000,
+      "tag": "Premium",
+      "provider": "Telkomsel",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "SIMPATI 100GB",
+      "quota": "100GB",
+      "validityDays": 60,
+      "price": 250000,
+      "tag": "Premium",
+      "provider": "Telkomsel",
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "name": "by.U 5GB",
+      "quota": "5GB",
+      "validityDays": 30,
+      "price": 18000,
+      "tag": "Hemat",
+      "provider": "by.U",
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "name": "by.U 10GB",
+      "quota": "10GB",
+      "validityDays": 30,
+      "price": 30000,
+      "tag": "Hemat",
+      "provider": "by.U",
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "name": "by.U 20GB",
+      "quota": "20GB",
+      "validityDays": 30,
+      "price": 55000,
+      "tag": "Populer",
+      "provider": "by.U",
+      "isActive": true
+    },
+    {
+      "id": "9",
+      "name": "by.U 40GB",
+      "quota": "40GB",
+      "validityDays": 30,
+      "price": 90000,
+      "tag": "Cepat",
+      "provider": "by.U",
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "name": "by.U 80GB",
+      "quota": "80GB",
+      "validityDays": 60,
+      "price": 160000,
+      "tag": "Premium",
+      "provider": "by.U",
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "name": "Freedom 6GB",
+      "quota": "6GB",
+      "validityDays": 7,
+      "price": 22000,
+      "tag": "Hemat",
+      "provider": "Indosat",
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "name": "Freedom 15GB",
+      "quota": "15GB",
+      "validityDays": 30,
+      "price": 55000,
+      "tag": "Populer",
+      "provider": "Indosat",
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "name": "Freedom 25GB",
+      "quota": "25GB",
+      "validityDays": 30,
+      "price": 85000,
+      "tag": "Cepat",
+      "provider": "Indosat",
+      "isActive": true
+    },
+    {
+      "id": "14",
+      "name": "Freedom 50GB",
+      "quota": "50GB",
+      "validityDays": 30,
+      "price": 140000,
+      "tag": "Premium",
+      "provider": "Indosat",
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "name": "Freedom Unlimited",
+      "quota": "Unlimited",
+      "validityDays": 30,
+      "price": 200000,
+      "tag": "Premium",
+      "provider": "Indosat",
+      "isActive": true
+    },
+    {
+      "id": "16",
+      "name": "Unlimited 7H",
+      "quota": "Unlimited",
+      "validityDays": 7,
+      "price": 15000,
+      "tag": "Hemat",
+      "provider": "Smartfren",
+      "isActive": true
+    },
+    {
+      "id": "17",
+      "name": "Unlimited 14H",
+      "quota": "Unlimited",
+      "validityDays": 14,
+      "price": 25000,
+      "tag": "Hemat",
+      "provider": "Smartfren",
+      "isActive": true
+    },
+    {
+      "id": "18",
+      "name": "Unlimited 30H",
+      "quota": "Unlimited",
+      "validityDays": 30,
+      "price": 45000,
+      "tag": "Populer",
+      "provider": "Smartfren",
+      "isActive": true
+    },
+    {
+      "id": "19",
+      "name": "Super 4G 30GB",
+      "quota": "30GB",
+      "validityDays": 30,
+      "price": 80000,
+      "tag": "Cepat",
+      "provider": "Smartfren",
+      "isActive": true
+    },
+    {
+      "id": "20",
+      "name": "Super 4G 60GB",
+      "quota": "60GB",
+      "validityDays": 60,
+      "price": 140000,
+      "tag": "Premium",
+      "provider": "Smartfren",
+      "isActive": true
+    },
+    {
+      "id": "21",
+      "name": "AlwaysOn 4GB",
+      "quota": "4GB",
+      "validityDays": 7,
+      "price": 17000,
+      "tag": "Hemat",
+      "provider": "Tri",
+      "isActive": true
+    },
+    {
+      "id": "22",
+      "name": "AlwaysOn 12GB",
+      "quota": "12GB",
+      "validityDays": 30,
+      "price": 45000,
+      "tag": "Hemat",
+      "provider": "Tri",
+      "isActive": true
+    },
+    {
+      "id": "23",
+      "name": "AlwaysOn 25GB",
+      "quota": "25GB",
+      "validityDays": 30,
+      "price": 80000,
+      "tag": "Populer",
+      "provider": "Tri",
+      "isActive": true
+    },
+    {
+      "id": "24",
+      "name": "AlwaysOn 50GB",
+      "quota": "50GB",
+      "validityDays": 30,
+      "price": 130000,
+      "tag": "Cepat",
+      "provider": "Tri",
+      "isActive": true
+    },
+    {
+      "id": "25",
+      "name": "AlwaysOn 100GB",
+      "quota": "100GB",
+      "validityDays": 60,
+      "price": 220000,
+      "tag": "Premium",
+      "provider": "Tri",
+      "isActive": true
+    },
+    {
+      "id": "26",
+      "name": "Xtra 5GB",
+      "quota": "5GB",
+      "validityDays": 7,
+      "price": 20000,
+      "tag": "Hemat",
+      "provider": "XL",
+      "isActive": true
+    },
+    {
+      "id": "27",
+      "name": "Xtra 15GB",
+      "quota": "15GB",
+      "validityDays": 30,
+      "price": 58000,
+      "tag": "Populer",
+      "provider": "XL",
+      "isActive": true
+    },
+    {
+      "id": "28",
+      "name": "Xtra 30GB",
+      "quota": "30GB",
+      "validityDays": 30,
+      "price": 95000,
+      "tag": "Cepat",
+      "provider": "XL",
+      "isActive": true
+    },
+    {
+      "id": "29",
+      "name": "Xtra 50GB",
       "quota": "50GB",
       "validityDays": 30,
       "price": 145000,
-      "tag": "Power User",
+      "tag": "Premium",
+      "provider": "XL",
+      "isActive": true
+    },
+    {
+      "id": "30",
+      "name": "Xtra 100GB",
+      "quota": "100GB",
+      "validityDays": 60,
+      "price": 245000,
+      "tag": "Premium",
+      "provider": "XL",
+      "isActive": true
+    },
+    {
+      "id": "31",
+      "name": "Bronet 5GB",
+      "quota": "5GB",
+      "validityDays": 7,
+      "price": 15000,
+      "tag": "Hemat",
+      "provider": "Axis",
+      "isActive": true
+    },
+    {
+      "id": "32",
+      "name": "Bronet 12GB",
+      "quota": "12GB",
+      "validityDays": 30,
+      "price": 40000,
+      "tag": "Hemat",
+      "provider": "Axis",
+      "isActive": true
+    },
+    {
+      "id": "33",
+      "name": "Bronet 25GB",
+      "quota": "25GB",
+      "validityDays": 30,
+      "price": 75000,
+      "tag": "Populer",
+      "provider": "Axis",
+      "isActive": true
+    },
+    {
+      "id": "34",
+      "name": "Bronet 50GB",
+      "quota": "50GB",
+      "validityDays": 30,
+      "price": 120000,
+      "tag": "Cepat",
+      "provider": "Axis",
+      "isActive": true
+    },
+    {
+      "id": "35",
+      "name": "Bronet 100GB",
+      "quota": "100GB",
+      "validityDays": 60,
+      "price": 210000,
+      "tag": "Premium",
+      "provider": "Axis",
       "isActive": true
     }
   ],
@@ -84,8 +398,8 @@
       "createdAt": "2026-02-01T09:30:00.000Z",
       "items": [
         {
-          "packageId": 3,
-          "name": "Bulanan 25GB",
+          "packageId": "13",
+          "name": "Freedom 25GB",
           "price": 85000,
           "qty": 1
         }
@@ -118,8 +432,8 @@
       "createdAt": "2026-02-17T05:58:32.262Z",
       "items": [
         {
-          "packageId": "4",
-          "name": "Bulanan 50GB",
+          "packageId": "29",
+          "name": "Xtra 50GB",
           "price": 145000,
           "qty": 1
         }
