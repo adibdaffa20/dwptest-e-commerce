@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "alya@mail.com",
+      "password": "1234",
+      "name": "Alya Putri",
+      "role": "customer",
+      "customerId": 1
+    },
+    {
+      "id": "2",
+      "email": "bima@mail.com",
+      "password": "1234",
+      "name": "Bima Rahman",
+      "role": "customer",
+      "customerId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Alya Putri",
+      "phone": "081234567890",
+      "email": "alya@mail.com",
+      "tier": "Gold",
+      "createdAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Bima Rahman",
+      "phone": "082233445566",
+      "email": "bima@mail.com",
+      "tier": "Silver",
+      "createdAt": "2026-01-12T10:00:00.000Z"
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Harian 2GB",
+      "quota": "2GB",
+      "validityDays": 1,
+      "price": 9000,
+      "tag": "Cepat",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Mingguan 10GB",
+      "quota": "10GB",
+      "validityDays": 7,
+      "price": 35000,
+      "tag": "Hemat",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Bulanan 25GB",
+      "quota": "25GB",
+      "validityDays": 30,
+      "price": 85000,
+      "tag": "Best Seller",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Bulanan 50GB",
+      "quota": "50GB",
+      "validityDays": 30,
+      "price": 145000,
+      "tag": "Power User",
+      "isActive": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "msisdn": "081234567890",
+      "paymentMethod": "QRIS",
+      "status": "PAID",
+      "total": 85000,
+      "createdAt": "2026-02-01T09:30:00.000Z",
+      "items": [
+        {
+          "packageId": 3,
+          "name": "Bulanan 25GB",
+          "price": 85000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "9439",
+      "customerId": 1,
+      "msisdn": "081234567890",
+      "paymentMethod": "QRIS",
+      "status": "PAID",
+      "total": 9000,
+      "createdAt": "2026-02-17T03:50:48.455Z",
+      "items": [
+        {
+          "packageId": "1",
+          "name": "Harian 2GB",
+          "price": 9000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "970d",
+      "customerId": 1,
+      "msisdn": "081234567890",
+      "paymentMethod": "QRIS",
+      "status": "PAID",
+      "total": 145000,
+      "createdAt": "2026-02-17T05:58:32.262Z",
+      "items": [
+        {
+          "packageId": "4",
+          "name": "Bulanan 50GB",
+          "price": 145000,
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}
